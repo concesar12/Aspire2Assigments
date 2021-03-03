@@ -1,0 +1,216 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+  <meta charset="UTF-8" />
+  <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+  <title>first assignment rental cars</title>
+<!-- Libraries required -->
+  <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.0.0-beta2/dist/css/bootstrap.min.css" rel="stylesheet"
+    integrity="sha384-BmbxuPwQa2lc/FVzBcNJ7UAyJxM6wuqIj61tLrc4wSX0szH/Ev+nYRRuWlolflfl" crossorigin="anonymous" />
+  <script src="https://maxcdn.bootstrapcdn.com/bootstrap/4.5.2/js/bootstrap.min.js"></script>
+  <link href="https://fonts.googleapis.com/css2?family=Roboto:wght@400;700&display=swap" rel="stylesheet" />
+  <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/font-awesome/4.7.0/css/font-awesome.min.css" />
+  <script src="https://code.jquery.com/jquery-3.3.1.js"></script>
+  <link rel="stylesheet" href="css/Style2.css" />
+</head>
+
+<body>
+  <div class="wrapper">
+    <header>
+      <nav>
+        <div class="menu-icon">
+          <i class="fa fa-bars fa-2x"></i>
+        </div>
+
+        <div class="logo">MyMaori</div>
+
+        <div class="menu">
+          <ul>
+            <li><a href="index.html">Home</a></li>
+            <li><a href="#top">Experience</a></li>
+            <li><a href="index.html#contact">Contact us</a></li>
+          </ul>
+        </div>
+      </nav>
+    </header>
+  </div>
+  <!-- start of the main content -->
+  <br />
+  <br />
+  <br />
+  <h2 id="menu-categories-title" class="text-center">Maori Culture</h2>
+
+  <!-- Tabs Content beg-->
+  <div class="mytabs">
+    <input type="radio" id="information" name="mytabs" checked="checked" />
+    <label for="information">Information</label>
+    <div class="tab">
+      <h2>Information</h2>
+      <section class="row">
+        <div class="col-md-3 col-sm-4 col-xs-6 col-xxs-12">
+          <a href="https://maoridictionary.co.nz/" target="_blank">
+            <div class="category-tile">
+              <img width="200" height="200" src="Images/1.jpg" alt="Dictionary" />
+              <span>Dictionary</span>
+            </div>
+          </a>
+        </div>
+        <div class="col-md-3 col-sm-4 col-xs-6 col-xxs-12">
+          <a href="https://www.newzealand.com/nz/maori-carving/" target="_blank">
+            <div class="category-tile">
+              <img width="200" height="200" src="Images/new-zealand m.jpg" alt="Art" />
+              <span>Art</span>
+            </div>
+          </a>
+        </div>
+        <div class="col-md-3 col-sm-4 col-xs-6 col-xxs-12">
+          <a href="https://teara.govt.nz/en/maori-clothing-and-adornment-kakahu-maori" target="_blank">
+            <div class="category-tile">
+              <img width="200" height="200" src="Images/3.jpg" alt="DRESS" />
+              <span>DRESS</span>
+            </div>
+          </a>
+        </div>
+        <div class="col-md-3 col-sm-4 col-xs-6 col-xxs-12">
+          <a href="https://artsonline.tki.org.nz/Teaching-and-Learning/Secondary-teaching-resources/Dance/Reviewed-resources/Key-collection/Discovering-Dance-Teachers-Notes/Maori-dance/Dance-styles-and-props"
+            target="_blank">
+            <div class="category-tile">
+              <img width="200" height="200" src="Images/4.jpg" alt="Lunch" />
+              <span>DANCE</span>
+            </div>
+          </a>
+        </div>
+      </section>
+    </div>
+
+    <input type="radio" id="history" name="mytabs" />
+    <label for="history">History</label>
+    <div class="tab">
+      <h2>History</h2>
+      <p>
+        Their traditional history describes their origins in terms of waves of
+        migration that culminated in the arrival of a “great fleet” in the
+        14th century from Hawaiki, a mythical land usually identified as
+        Tahiti. This historical account provides the basis for traditional
+        Maori social organization and is generally supported by archaeological
+        discoveries, which have dated Maori arrival in New Zealand to about
+        1300 CE. Members of each tribe (iwi) recognized a common ancestry
+        (which might be traced through either or both parents) and common
+        allegiance to a chief or chiefs (ariki). Traditionally, at the
+        day-to-day level, the most important social groups were the hapuu
+        (subtribe), which was the primary landholding group and the one within
+        which marriage was preferred, and the whaanau, or extended family.
+        This social order was in force when Abel Tasman, the first European
+        contact, arrived off the coast of New Zealand in December 1642. He did
+        battle with a group of Maori on South Island and left the area largely
+        unexplored. In 1769–70 Captain James Cook circumnavigated the two
+        major islands and wrote about the intelligence of the Maori and the
+        suitability of New Zealand for colonization. Whalers, sealers, and
+        other Europeans seeking profit were initially welcomed by the Maori.
+        With the introduction of muskets, disease, Western agricultural
+        methods, and missionaries, Maori culture and social structure began to
+        disintegrate. By the late 1830s New Zealand had been joined to Europe,
+        and European settlers landed by the score.
+      </p>
+    </div>
+<!-- Beginning of the registration form -->
+    <input type="radio" id="register" name="mytabs" />
+    <label for="register">Register</label>
+    <div class="tab">
+      <h2>Register</h2>
+      <div class="containerR">
+        <div class="headerR">
+          <h3>Create Account</h3>
+        </div>
+        <form id="form" class="form">
+          <div class="form-control">
+            <label for="username">Username</label>
+            <input type="text" placeholder="Your Name..." id="username" />
+            <small>Error message</small>
+          </div>
+          <div class="form-control">
+            <label for="Address">Address</label>
+            <input type="text" placeholder="Your Address..." id="address" />
+            <small>Error message</small>
+          </div>
+          <div class="form-control">
+            <label for="ccn">Credit Card Number:</label>
+            <div class="input-group">
+              <span class="radio">
+                <label>
+                  <input type="radio" class="radiobox" name="ccard" value="VISA" checked> VISA
+                </label>
+                <label class="space">
+                  <input type="radio" class="radiobox" name="ccard" value="MASTERCARD"> MASTERCARD
+                </label>
+                <label class="space">
+                  <input type="radio" class="radiobox" name="ccard" value="AmEx"> AmEx
+                </label>
+              </span>
+            </div>
+            <input id="ccn" type="text" inputmode="numeric" pattern="[0-9\s]{13,19}" autocomplete="cc-number"
+              maxlength="16" placeholder="xxxx xxxx xxxx xxxx">
+            <small>Error message</small>
+          </div>
+          <div class="form-control">
+            <label for="Email">Email</label>
+            <input type="email" placeholder="example@domain.com" id="email" />
+            <small>Error message</small>
+          </div>
+          <div class="form-control">
+            <label for="terms" class="center">I have read the terms and conditions</label>
+            <input type="checkbox" id="mycheck" />
+
+            <small>Error message</small>
+          </div>
+          <button>Submit</button>
+        </form>
+      </div>
+    </div>
+  </div>
+  <!-- Tabs Content End -->
+
+  <!-- here is where the footer starts -->
+  <footer class="panel-footer">
+    <div class="container">
+      <div class="row">
+        <section id="hours" class="col-sm-4">
+          <span>Hours:</span><br />
+          Sun-Thurs: 11:15am - 10:00pm<br />
+          Fri: 11:15am - 2:30pm<br />
+          Saturday Closed
+          <hr class="visible-xs" />
+        </section>
+        <section id="address" class="col-sm-4">
+          <span>Address:</span><br />
+          289 Tuam Street<br />
+          Christchurch Central City, Christchurch 8011
+          <hr class="visible-xs" />
+        </section>
+        <section id="testimonials" class="col-sm-4">
+          <p>
+            "I appreciated so much the experience. All my friends are wishing
+            to come and have it as well!"
+          </p>
+          <p>
+            "Amazing experience, Maori Culture is just impressive, they have
+            the best acknowledge about the world"
+          </p>
+        </section>
+      </div>
+    </div>
+  </footer>
+  <!-- this is the end of my footer -->
+
+  <!-- Mandatory libraries 4 -->
+
+  <script src="https://cdnjs.cloudflare.com/ajax/libs/popper.js/1.16.0/umd/popper.min.js"></script>
+  <script src="https://code.jquery.com/jquery-3.3.1.js"></script>
+  <script src="https://cdnjs.cloudflare.com/ajax/libs/popper.js/1.16.0/umd/popper.min.js"></script>
+  <script src="https://maxcdn.bootstrapcdn.com/bootstrap/4.5.2/js/bootstrap.min.js"></script>
+  <script src="js/script2.js"></script>
+</body>
+
+</html>

@@ -1,0 +1,15 @@
+*****************************************
+Author: Cesar David Guerrero Regino 
+Project: Assigment 1
+*****************************************
+Requirements
+1. os Windows xp/vista/7/10 - Any Linux distribution - Any Mac os 
+2. Have any of these browsers already installed in your computer - Firefox/chrome/Microsoft Edge/opera/safari
+
+Installation Manual. 
+
+ 1. Go to the main folder First Assigment. 
+ 2. Hit the right click on the file "index.html".
+ 3. press left click on the option "open with". 
+ 4. Select any of the browsers already listed above.
+************************************************************ 
